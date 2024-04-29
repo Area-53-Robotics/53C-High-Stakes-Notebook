@@ -1,0 +1,27 @@
+#import "../colors.typ": *
+
+#let pro-con(pros: [], cons: []) = {
+  align(center, grid(
+    columns: (1fr, 1fr), 
+    rows: 2, 
+    column-gutter: 10pt,
+
+    // Title
+    
+    box(width: 1fr, inset: 10pt, radius: (top-left: 20pt, top-right: 20pt), fill: pro-green, align(center, "Pros")),
+
+    box(width: 1fr, inset: 10pt, radius: (top-left: 20pt, top-right: 20pt), fill: con-red, align(center, "Cons")),
+
+    // Content
+    
+    box(width: 1fr, inset: 10pt, radius: (bottom-left: 20pt, bottom-right: 20pt), fill: surface-1, align(left, list(
+      [Hi],
+      [Hello],
+    ))),
+
+    box(width: 1fr, inset: 10pt, radius: (bottom-left: 20pt, bottom-right: 20pt), fill: surface-1, align(left, list(
+      [Hey],
+    )))
+
+  ))
+}
