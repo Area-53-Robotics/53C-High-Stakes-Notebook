@@ -11,7 +11,6 @@
 )
 
 #create-frontmatter-entry(title: "Color Coding Guide")[
-  This key represents each step of the Engineering Design Process with a color that corresponds to the Engineering Notebooking Rubric categories. In the table of contents, each page is assigned to a color which summarizes the content on that page. However, if a page highlights multiple sections of the Engineering Design Process, headings on the page will be colored accordingly.
 
   = Colors
 
