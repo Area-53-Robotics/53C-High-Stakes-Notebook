@@ -7,7 +7,9 @@
   "build": light-blue,
   "program": light-purple,
   "test": light-pink,
-  "reflect": surface-3
+  "reflect": surface-3,
+  // frontmatter and appendix entries
+  "none": surface-2
 )
 
 #let color-code-metadata = (
