@@ -162,8 +162,7 @@
 
 #create-frontmatter-entry(title: "Table of Contents")[ #components.toc() ]
 
-#create-body-entry(
-  title: "Season Reveal Thoughts",
+#create-body-entry(title: "Season Reveal Thoughts",
   type: "identify",
   date: datetime(year: 2024, month: 4, day: 27),
   author: "Brendan Hille",
@@ -223,8 +222,7 @@
   ]
 )
 
-#create-body-entry(
-  title: "Season Resolutions",
+#create-body-entry(title: "Season Resolutions",
   type: "identify",
   date: datetime(year: 2024, month: 5, day: 10),
   author: "Isaiah Blanc",
@@ -270,6 +268,194 @@
     = Progress Updates
 
     After rereading our Over Under notebook, I noticed a significant lack of 3D models or pictures of our entire robot as we developed it throughout the season. This year, I want to mark each official robot prototype in the notebook—defined by a major change or addition to the robot—so it's easier to track our progress and see where our engineering design process iterates.
+
+  ]
+)
+
+#create-body-entry(title: "Identify: Scoring Priority",
+  type: "identify",
+  date: datetime(year: 2024, month: 5, day: 17),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Brainstorm: Scoring Priority",
+  type: "brainstorm",
+  date: datetime(year: 2024, month: 5, day: 17),
+  author: "Isaiah Blanc",
+  witness: "Brendan Hille",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Select: Scoring Priority",
+  type: "select",
+  date: datetime(year: 2024, month: 5, day: 21),
+  author: "Isaiah Blanc",
+  witness: "Brendan Hille",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Identify: Mobile Goal Possession",
+  type: "identify",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Brainstorm: Mobile Goal Possession",
+  type: "brainstorm",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Select: Mobile Goal Possession",
+  type: "select",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Identify: Ring Scoring",
+  type: "identify",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Brainstorm: Ring Scoring",
+  type: "brainstorm",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Select: Ring Scoring",
+  type: "select",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Identify: Climbing",
+  type: "identify",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Brainstorm: Climbing",
+  type: "brainstorm",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Identify: Drivetrain",
+  type: "identify",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Brainstorm: Drivetrain",
+  type: "brainstorm",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Select: Drivetrain",
+  type: "select",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Identify: Wheels",
+  type: "identify",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Brainstorm: Wheels",
+  type: "brainstorm",
+  date: datetime(year: 2024, month: 5, day: 31),
+  author: "Brendan Hille",
+  witness: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Identify: Autonomous",
+  type: "identify",
+  date: datetime(year: 2024, month: 6, day: 8),
+  author: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Brainstorm: Autonomous",
+  type: "brainstorm",
+  date: datetime(year: 2024, month: 6, day: 8),
+  author: "Isaiah Blanc",
+  [
+
+  ]
+)
+
+#create-body-entry(title: "Identify: Game Manual Update",
+  type: "identify",
+  date: datetime(year: 2024, month: 6, day: 27),
+  author: "Isaiah Blanc",
+  witness: "Evan McClelland",
+  [
 
   ]
 )
