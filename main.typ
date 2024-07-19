@@ -15,14 +15,14 @@
   
   This notebook was programmed using a markup language called Typst, and formatted in a Typst package called the Notebookinator.
 
-  #grid(columns: (1fr, 1fr), column-gutter: 10pt,
+  #grid(columns: (1fr, 1fr), column-gutter: 10pt, align: horizon,
     [
-      #align(center + horizon,
-        square(size: 75pt, fill: surface-2)
-      )
+    #align(center, image("images/typst.png", height: 2in, width: 2in))
     ],
     [
-    The Notebookinator is a formatting tool that allows us to organize and display our engineering design process efficiently and professionally. Isaiah and other programmers on Area 53 actively work on the Notebookinator to make developing notebooks easier for new programmers and notebookers alike.
+    The Notebookinator is a formatting tool that allows us to organize and display our engineering design process efficiently and professionally. 
+    
+    Isaiah and other programmers on Area 53 actively work on the Notebookinator to make developing notebooks easier for new programmers and notebookers alike.
     ]
   )
 
@@ -77,7 +77,9 @@
     ]
   )
 
-  = Excalidraw Style Guide
+  = Excalidraw
+
+  #image("images/excalidrawings/style-guide.png")
 ]
 
 #create-frontmatter-entry(title: "Game Analysis")[
@@ -107,7 +109,7 @@
         - #emph[Including the High Stake]
     ],
     [
-      #image("images/field1.png"),
+      #image("images/game-analysis/field1.png"),
     ],
     [
       == Corner
@@ -125,8 +127,8 @@
 
     ],
     [
-      #image("images/ring1.png")
-      #image("images/ring2.png")
+      #image("images/game-analysis/ring1.png")
+      #image("images/game-analysis/ring2.png")
     ],
     [
       == Mobile Goal
@@ -136,16 +138,16 @@
 
     ],
     [
-      #image("images/mogo1.png")
-      #image("images/mogo2.png")
+      #image("images/game-analysis/mogo1.png")
+      #image("images/game-analysis/mogo2.png")
     ],
     [
       == Stakes
       The stakes are the tertiary scoring objects in High Stakes.
     ],
     [
-      #image("images/stake2.png")
-      #image("images/stake1.png")
+      #image("images/game-analysis/stake2.png")
+      #image("images/game-analysis/stake1.png")
     ],
     [
       == Ladder
@@ -155,7 +157,7 @@
 
     ],
     [
-      #image("images/ladder1.png")
+      #image("images/game-analysis/ladder1.png")
     ]
   )
 ]
