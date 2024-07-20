@@ -17,7 +17,7 @@
 
   #grid(columns: (1fr, 1fr), column-gutter: 10pt, align: horizon,
     [
-    #align(center, image("images/typst.png", height: 2in, width: 2in))
+    #align(center, image("images/typst.png", height: 1.7in, width: 1.7in))
     ],
     [
     The Notebookinator is a formatting tool that allows us to organize and display our engineering design process efficiently and professionally. 
@@ -87,79 +87,76 @@
 
   = Game Elements
 
-  #grid(
-    columns: (1fr, 1fr), 
-    rows: 6,
-    gutter: 20pt,
-    align: horizon,
-    [
-      == Field
-      The field is composed of the following parts:
-      - Corners (4)
-        - #emph[2 positive corners]
-        - #emph[2 negative corners]
-      - Rings (48)
-        - #emph[24 rings per alliance]
-      - Mobile Goals (5)
-        - #emph[1 autonomous neutral goal]
-      - Stakes (4)
-        - #emph[1 stake per alliance]
-        - #emph[2 neutral stakes]
-      - Ladder (1)
-        - #emph[Including the High Stake]
-    ],
-    [
-      #image("images/game-analysis/field1.png"),
-    ],
-    [
-      == Corner
-      The corners are 12” by 12” locations in which mobile goals can be placed to add or subtract points from either alliance.
+  == Field
+  The field is composed of the following parts:
+  
+  #grid(columns: (1fr, 1fr),
+  [
+    - Rings (48)
+      - #emph[24 rings per alliance]
+    - Mobile Goals (5)
+      - #emph[1 autonomous neutral goal]
+    - Stakes (4)
+      - #emph[1 stake per alliance]
+      - #emph[2 neutral stakes]
+  ], 
+  [
+    - Ladder (1)
+      - #emph[Including the High Stake]
+    - Corners (4)
+      - #emph[2 positive corners]
+      - #emph[2 negative corners]
+  ])
+  
+  #align(center, image("images/game-analysis/field1.png", width: 5.5in, height: 5.5in))
+  
+  == Corner
+  The corners are 12” by 12” locations in which mobile goals can be placed to add or subtract points from either alliance.
 
-      Rings placed on mobile goals inside the positive corner are worth double the points while rings placed on mobile goals inside the negative corner are reduced to zero points.
+  Rings placed on mobile goals inside the positive corner are worth double the points while rings placed on mobile goals inside thenegative corner are reduced to zero points.
 
-    ],
-    [
-      
-    ],
-    [
-      == Ring
-      The rings are the primary scoring objects in High Stakes. Each ring on a stake is worth 1 point and the top ring on a stake is worth 3 points.
+  #align(center, image("images/game-analysis/corner1.png"))
+  
+  == Ring
+  The rings are the primary scoring objects in High Stakes.
+  
+  The color of a ring determines which alliance it scores points for. Each ring on a stake is worth 1 point and the top ring on a stack ofrings is worth 3 points.
+  
+  #align(center, [
+    #image("images/game-analysis/ring1.png")
+    #image("images/game-analysis/ring2.png")
+  ])
+  
+  == Mobile Goal
+  The mobile goals are the secondary scoring objects in High Stakes.
 
-    ],
-    [
-      #image("images/game-analysis/ring1.png")
-      #image("images/game-analysis/ring2.png")
-    ],
-    [
-      == Mobile Goal
-      The mobile goals are the secondary scoring objects in High Stakes.
+  Mobile goals can be possessed by the robot and placed inside Corners to earn more points, depending on the number of rings on the mobilegoal.
+  
+  #align(center, grid(columns: 2,
+    [#image("images/game-analysis/mogo1.png")],
+    [#image("images/game-analysis/mogo2.png")]
+  ))
+  
+  == Wall Stakes
+  The wall stakes are the tertiary scoring objects in High Stakes.
 
-      Mobile goals can be possessed by the robot and placed inside Corners to earn more points, depending on the number of rings on the mobile goal.
+  Wall stakes are either neutral or alliance-specific, meaning the color of the wall stake determines which alliance can score points on it.Neutral wall stakes are nine inches taller than alliance wall stakes,making them more difficult to score on.
+  
+  Rings scored on wall stakes are worth the same amount of points asrings scored on mobile goals.
 
-    ],
-    [
-      #image("images/game-analysis/mogo1.png")
-      #image("images/game-analysis/mogo2.png")
-    ],
-    [
-      == Stakes
-      The stakes are the tertiary scoring objects in High Stakes.
-    ],
-    [
-      #image("images/game-analysis/stake2.png")
-      #image("images/game-analysis/stake1.png")
-    ],
-    [
-      == Ladder
-      The ladder is the endgame scoring object in High Stakes. The ladder has three levels and the High Stake is located atop the vertical post nearest to the audience side of the Field.
-
-      A robot elevated inside the first level is worth 3 points. A robot elevated inside the second level is worth 6 points. A robot elevated inside the third level is worth 12 points.
-
-    ],
-    [
-      #image("images/game-analysis/ladder1.png")
-    ]
-  )
+  #align(center + bottom, grid(columns: 2,
+    [#image("images/game-analysis/stake2.png")],
+    [#image("images/game-analysis/stake1.png")]
+  ))
+  
+  == Ladder
+  The ladder is the endgame scoring object in High Stakes.
+  
+  The ladder has three levels and the High Stake is located atop thevertical post nearest to the audience side of the Field.
+  
+  A robot elevated inside the first level is worth 3 points. A robotelevated inside the second level is worth 6 points. A robot elevatedinside the third level is worth 12 points.
+  
+  #image("images/game-analysis/ladder1.png")
 ]
 
 #create-frontmatter-entry(title: "Table of Contents")[ #components.toc() ]
