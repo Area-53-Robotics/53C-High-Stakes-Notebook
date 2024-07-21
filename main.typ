@@ -203,12 +203,12 @@
     Our robot should be capable of performing all functions in #emph[High Stakes]. My ideal design for the primary scoring method would be an intake that can be positioned to load the rings onto the mobile goals, the alliance stakes, neutral stakes and the High Stake. The robot would also be able to pick up a mobile goal, presumably with a pneumatic clamp, and score rings onto that goal as the rings are being collected.
 
     == Climb
-    When I first saw the reveal and noticed the climbing element, I was unsure whether it was worth attempting. Climbing gets you 12 points maximum, which can be simply countered by the opposing alliance placing one of your fully scored mobile goals in the negative corner. Climbing effectively surrenders the game unless you can do it quickly. However in the spirit of having a robot that can do everything, my original climb mechanism idea is to make an intake chain with hooks on the side of our robot. This would then grab the rungs of the ladder and pull the robot up. If we install a PTO ()<glossary> mechanism, then this process could be done very quickly. The only  foreseeable problem is that we would be using chains to hold up our entire robot. Chains are notorious for breaking when it's most inconvenient, at least from my experience.
+    When I first saw the reveal and noticed the climbing element, I was unsure whether it was worth attempting. Climbing gets you 12 points maximum, which can be simply countered by the opposing alliance placing one of your fully scored mobile goals in the negative corner. Climbing effectively surrenders the game unless you can do it quickly. However in the spirit of having a robot that can do everything, my original climb mechanism idea is to make an intake chain with hooks on the side of our robot. This would then grab the rungs of the ladder and pull the robot up. If we install a PTO #footnote[See glossary.] mechanism, then this process could be done very quickly. The only  foreseeable problem is that we would be using chains to hold up our entire robot. Chains are notorious for breaking when it's most inconvenient, at least from my experience.
 
     = Evan
 
     == Robot Design
-    One of my first thoughts is that precision is going to be crucial in this game, but speed is still going to be pretty important. It seems like there is probably going to be a lot of shuffling around the mobile goals to the corner, because they can be used to score or subtract so many points. Also, this year a pushbot ()<glossary> won't be viable like it was last year, as all of the point-scoring actions need at least a claw to complete. This is nice because having a good robot early season will be as important as having a good driver.
+    One of my first thoughts is that precision is going to be crucial in this game, but speed is still going to be pretty important. It seems like there is probably going to be a lot of shuffling around the mobile goals to the corner, because they can be used to score or subtract so many points. Also, this year a pushbot #footnote[See glossary.] won't be viable like it was last year, as all of the point-scoring actions need at least a claw to complete. This is nice because having a good robot early season will be as important as having a good driver.
 
     == Scoring Method
     My first thought was a forklift or 4-bar lift with a claw on the end, but after thinking it through, it seems like an intake is going to be faster and more efficient. We could add a pneumatic pusher at the top of the intake to push the rings over the barb at the top of the mobile goal. We also need some way to hold the mobile goals. This could either be some kind of claw or clamp. For descoring, we could do some kind of pneumatic pusher that pushed the rings off the mobile goal. However, we will have to test to see how hard it would be to descore so that we can decide if pneumatics will be enough.
@@ -242,7 +242,7 @@
     One major mistake we made in previous years was designing our robot without keeping the position of electronics such as the brain, battery, motors, and pneumatic tank in mind.
 
     == Brain
-    Making the brain screen and ports easily accessible makes our workflow more efficient and reduces the risk of disconnections between the brain and other electronics. Also, using LemLib ()<glossary> allows us to record our robot's coordinates on the brain screen, so the ability to view the brain screen easily makes programming autonomous easier as well.
+    Making the brain screen and ports easily accessible makes our workflow more efficient and reduces the risk of disconnections between the brain and other electronics. Also, using LemLib ()#footnote[See glossary.] allows us to record our robot's coordinates on the brain screen, so the ability to view the brain screen easily makes programming autonomous easier as well.
     
     == Device Orientation
     Electronics such as the battery and pneumatic tank can be positioned so the length of the cable or pneumatic tubing is minimal, which makes cable management easier. By planning ahead, we can ensure that adding pneumatic pistons onto any section of our robot is fast and easy.
@@ -358,7 +358,7 @@
 
     - *Simplicity*: How easily or quickly we can construct the subsystem
 
-    - *Weight*: How heavy we speculate the mechanism to be, which will affect our drivetrain speed. A higher score means a lighter mechanism.
+    - *Weight*: How heavy we speculate the mechanism to be. A higher score means a lighter mechanism.
 
   ]
 )
@@ -386,6 +386,66 @@
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
   [
+    The challenge about scoring rings on stakes is the barb #footnote[See glossary.].
+
+    #grid(columns: (1fr, 1fr, 1fr), align: center + horizon,
+      [
+        #image("images/game-analysis/barb1.png")
+      ],
+      [
+        #image("images/game-analysis/barb2.png")
+      ],
+      [
+        #image("images/game-analysis/barb3.png")
+      ]
+    )
+    
+    // Show dimensions of each image and explain why they are significant
+
+    = Design Criteria
+
+    #components.pro-con(
+      pros: [
+        - Picks up rings off the ground
+        - Provides a downward force to score rings
+        - Scores on possessed and unpossessed mobile goals
+        - Scores on neutral and alliance wall stakes
+      ],
+      cons: [
+        - Must not expand over 16.5 inches
+        - Must not use more than two motors
+      ]
+    )
+    
+    // Explain the cons
+    // Explain why not worrying about descoring right now
+
+    = Decision Matrix Categories
+
+    Using this criteria, we determined the following categories to be most important when considering what ring intake subsystem to build. Although we didn't include descoring rings in our pros and cons table, we still want to consider it in the decision matrix because we may revisit this mechanic after our first prototype.
+
+
+    #table(
+      columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+      rows: 3,
+      align: center + horizon,
+      inset: 10pt,
+      [Category], [Intaking], [Scoring], [Range], [Descoring], [Simplicity], [Weight],
+      [Scale], table.cell(colspan: 6)[0-5],
+      [Weight], table.cell(colspan: 2)[2x], [1x], table.cell(colspan: 3)[1/2x],
+    )
+
+    - *Intaking*: The ability to pick up rings off the ground
+
+    - *Scoring*: The ability to score rings on mobile goals and wall stakes
+
+    - *Descoring*: The ability to remove rings from mobile goals and wall stakes
+
+    - *Range*: How high we can raise rings to score on stakes of different heights
+
+    - *Simplicity*: How easily or quickly we can build the mechanism
+
+    - *Weight*: How heavy we speculate the mechanism to be. A higher score means a heavier mechanism.
 
   ]
 )
@@ -492,7 +552,7 @@
   author: "Isaiah Blanc",
   witness: "Evan McClelland",
   [
-
+    
   ]
 )
 

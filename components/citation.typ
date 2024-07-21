@@ -16,11 +16,7 @@
           #rule
         ])
       ],
-      [
-        #align(left, [
-          #body
-        ])
-      ]
+      [#align(left, [#body])]
     )
   )
 }

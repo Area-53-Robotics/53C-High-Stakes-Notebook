@@ -4,7 +4,5 @@
     indent: 0em
   )
   
-  show <glossary>: footnote[See glossary.]
-
   doc
 }
