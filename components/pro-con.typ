@@ -14,14 +14,8 @@
 
     // Content
     
-    box(width: 1fr, inset: 10pt, radius: (bottom-left: 20pt, bottom-right: 20pt), fill: surface-1, align(left, list(
-      [Hi],
-      [Hello],
-    ))),
+    box(width: 1fr, inset: 10pt, radius: (bottom-left: 20pt, bottom-right: 20pt), fill: surface-1, align(left, pros)),
 
-    box(width: 1fr, inset: 10pt, radius: (bottom-left: 20pt, bottom-right: 20pt), fill: surface-1, align(left, list(
-      [Hey],
-    )))
-
+    box(width: 1fr, inset: 10pt, radius: (bottom-left: 20pt, bottom-right: 20pt), fill: surface-1, align(left, cons))
   ))
 }
