@@ -37,7 +37,7 @@
           #grid(
             columns: (3fr, 1fr),
             align(left, ctx.title),
-            // align(right, ctx.date)
+            align(right, ctx.date.display())
           )
         ]
       )
