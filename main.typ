@@ -228,13 +228,13 @@
     After the conclusion of the Over Under season, we discussed the mistakes we made throughout the season and rules we want to implement this year.
 
     = Polycarbonate Map
-    #box(fill: surface-2, inset: 10pt, [
-      *(R19)* 
-      #set text(fill: red)
-      *A limited amount of custom plastic is allowed.*
-      #set text(fill: black)
-      Robots may use custom-made parts cut from certain types of non-shattering plastic. It must be possible to have cut all of the plastic parts on the Robot from a single 12” x 24” sheet, up to 0.070” thick.
-    ])
+    #components.citation(
+      id: "R19", 
+      rule: "A limited amount of custom plastic is allowed.",
+      [
+        Robots may use custom-made parts cut from certain types of non-shattering plastic. It must be possible to have cut all of the plastic parts on the Robot from a single 12” x 24” sheet, up to 0.070” thick.
+      ]
+    )
 
     Although we were aware of this rule and have never used enough polycarbonate to exceed the limit, we want to make this apparent in our engineering notebook by including a polycarbonate map that demonstrates that our plastic use is legal.
 
@@ -321,16 +321,16 @@
 
     An important aspect of robot design is using our motors wisely. By limiting this function to pneumatic pistons, we can save motors for future subsystems.
 
-    #box(fill: surface-2, inset: 10pt, [
-      *(R13)* 
-      #set text(fill: red)
-      *Motors are limited.*
-      #set text(fill: black)
-      Robots may use any combination of VEX V5 Smart Motors (11W) (276-4840) and EXP Smart Motors (5.5W) (276-4842), within the following criteria:
+    #components.citation(
+      id: "R13",
+      rule: "Motors are limited.",
+      [
+        Robots may use any combination of VEX V5 Smart Motors (11W) (276-4840) and EXP Smart Motors (5.5W) (276-4842), within the following criteria:
 
-      1. The combined power of all motors (11W & 5.5W) must not exceed 88W. This limit applies to all motors on the Robot, even those which are not plugged in.
-      2. V5 Smart Motors, and EXP Smart Motors connected to Smart Ports, are the only motors that may be used with a V5 Robot Brain. The 3-wire ports may not be used to control motors of any kind.
-    ])
+        1. The combined power of all motors (11W & 5.5W) must not exceed 88W. This limit applies to all motors on the Robot, even those which are not plugged in.
+        2. V5 Smart Motors, and EXP Smart Motors connected to Smart Ports, are the only motors that may be used with a V5 Robot Brain. The 3-wire ports may not be used to control motors of any kind.
+      ]
+    )
 
     By strategically distributing our motor wattage to subsystems that need more or less power than others, we can maximize our robot's efficiency. This begins with determining which subsystems *don't* need motors to function properly because of the simplicity of the task.
 

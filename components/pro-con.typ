@@ -8,9 +8,15 @@
 
     // Title
     
-    box(width: 1fr, inset: 10pt, radius: (top-left: 20pt, top-right: 20pt), fill: pro-green, align(center, "Pros")),
+    box(width: 1fr, inset: 10pt, radius: (top-left: 20pt, top-right: 20pt), fill: pro-green, align(center, [
+      #set text(weight: "bold") 
+      Pros
+    ])),
 
-    box(width: 1fr, inset: 10pt, radius: (top-left: 20pt, top-right: 20pt), fill: con-red, align(center, "Cons")),
+    box(width: 1fr, inset: 10pt, radius: (top-left: 20pt, top-right: 20pt), fill: con-red, align(center, [
+      #set text(weight: "bold")
+      Cons
+    ])),
 
     // Content
     
