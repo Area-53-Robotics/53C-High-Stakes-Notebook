@@ -43,7 +43,17 @@
       )
     ],
     footer: [
-      
+      #grid(
+        columns: (1fr, 2fr),
+        gutter: 20pt,
+        align: center,
+        box(width: 100%, inset: 10pt, radius: 20pt, fill: surface-1)[
+          *Author*: #ctx.author
+        ],
+        box(width: 100%, inset: 10pt, radius: 20pt, fill: surface-1)[
+          *Witnesses*: #ctx.witness
+        ]
+      )
     ]
   )
   show heading: it => {

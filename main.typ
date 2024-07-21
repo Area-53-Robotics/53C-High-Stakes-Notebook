@@ -281,7 +281,7 @@
 #create-body-entry(title: "Scoring Priority", type: "brainstorm",
   date: datetime(year: 2024, month: 5, day: 17),
   author: "Isaiah Blanc",
-  witness: "Brendan Hille",
+  witness: "Brendan Hille, Max Nelkin, Evan McClelland",
   [
 
   ]
@@ -290,7 +290,7 @@
 #create-body-entry(title: "Scoring Priority", type: "select",
   date: datetime(year: 2024, month: 5, day: 21),
   author: "Isaiah Blanc",
-  witness: "Brendan Hille",
+  witness: "Brendan Hille, Max Nelkin, Evan McClelland",
   [
 
   ]
