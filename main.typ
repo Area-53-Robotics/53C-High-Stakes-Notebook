@@ -161,8 +161,7 @@
 
 #create-frontmatter-entry(title: "Table of Contents")[ #components.toc() ]
 
-#create-body-entry(title: "Season Reveal Thoughts",
-  type: "identify",
+#create-body-entry(title: "Season Reveal Thoughts", type: "identify",
   date: datetime(year: 2024, month: 4, day: 27),
   author: "Brendan Hille",
   witness: "Isaiah Blanc, Max Nelkin, Evan McClelland",
@@ -221,8 +220,7 @@
   ]
 )
 
-#create-body-entry(title: "Season Resolutions",
-  type: "identify",
+#create-body-entry(title: "Season Resolutions", type: "identify",
   date: datetime(year: 2024, month: 5, day: 10),
   author: "Isaiah Blanc",
   witness: "Brendan Hille, Max Nelkin, Evan McClelland",
@@ -271,8 +269,7 @@
   ]
 )
 
-#create-body-entry(title: "Identify: Scoring Priority",
-  type: "identify",
+#create-body-entry(title: "Scoring Priority", type: "identify",
   date: datetime(year: 2024, month: 5, day: 17),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -281,8 +278,7 @@
   ]
 )
 
-#create-body-entry(title: "Brainstorm: Scoring Priority",
-  type: "brainstorm",
+#create-body-entry(title: "Scoring Priority", type: "brainstorm",
   date: datetime(year: 2024, month: 5, day: 17),
   author: "Isaiah Blanc",
   witness: "Brendan Hille",
@@ -291,8 +287,7 @@
   ]
 )
 
-#create-body-entry(title: "Select: Scoring Priority",
-  type: "select",
+#create-body-entry(title: "Scoring Priority", type: "select",
   date: datetime(year: 2024, month: 5, day: 21),
   author: "Isaiah Blanc",
   witness: "Brendan Hille",
@@ -301,8 +296,7 @@
   ]
 )
 
-#create-body-entry(title: "Mobile Goal Possession",
-  type: "identify",
+#create-body-entry(title: "Mobile Goal Possession", type: "identify",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -369,8 +363,7 @@
   ]
 )
 
-#create-body-entry(title: "Brainstorm: Mobile Goal Possession",
-  type: "brainstorm",
+#create-body-entry(title: "Mobile Goal Possession", type: "brainstorm",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -379,8 +372,7 @@
   ]
 )
 
-#create-body-entry(title: "Select: Mobile Goal Possession",
-  type: "select",
+#create-body-entry(title: "Mobile Goal Possession", type: "select",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -389,8 +381,7 @@
   ]
 )
 
-#create-body-entry(title: "Identify: Ring Scoring",
-  type: "identify",
+#create-body-entry(title: "Ring Scoring", type: "identify",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -399,8 +390,7 @@
   ]
 )
 
-#create-body-entry(title: "Brainstorm: Ring Scoring",
-  type: "brainstorm",
+#create-body-entry(title: "Ring Scoring", type: "brainstorm",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -409,8 +399,7 @@
   ]
 )
 
-#create-body-entry(title: "Select: Ring Scoring",
-  type: "select",
+#create-body-entry(title: "Ring Scoring", type: "select",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -419,8 +408,7 @@
   ]
 )
 
-#create-body-entry(title: "Identify: Climbing",
-  type: "identify",
+#create-body-entry(title: "Climbing", type: "identify",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -429,8 +417,7 @@
   ]
 )
 
-#create-body-entry(title: "Brainstorm: Climbing",
-  type: "brainstorm",
+#create-body-entry(title: "Climbing", type: "brainstorm",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -439,8 +426,7 @@
   ]
 )
 
-#create-body-entry(title: "Identify: Drivetrain",
-  type: "identify",
+#create-body-entry(title: "Drivetrain", type: "identify",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -449,8 +435,7 @@
   ]
 )
 
-#create-body-entry(title: "Brainstorm: Drivetrain",
-  type: "brainstorm",
+#create-body-entry(title: "Drivetrain", type: "brainstorm",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -459,8 +444,7 @@
   ]
 )
 
-#create-body-entry(title: "Select: Drivetrain",
-  type: "select",
+#create-body-entry(title: "Drivetrain", type: "select",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -469,8 +453,7 @@
   ]
 )
 
-#create-body-entry(title: "Identify: Wheels",
-  type: "identify",
+#create-body-entry(title: "Wheels", type: "identify",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -479,8 +462,7 @@
   ]
 )
 
-#create-body-entry(title: "Brainstorm: Wheels",
-  type: "brainstorm",
+#create-body-entry(title: "Wheels", type: "brainstorm",
   date: datetime(year: 2024, month: 5, day: 31),
   author: "Brendan Hille",
   witness: "Isaiah Blanc",
@@ -489,8 +471,7 @@
   ]
 )
 
-#create-body-entry(title: "Identify: Autonomous",
-  type: "identify",
+#create-body-entry(title: "Autonomous", type: "identify",
   date: datetime(year: 2024, month: 6, day: 8),
   author: "Isaiah Blanc",
   [
@@ -498,8 +479,7 @@
   ]
 )
 
-#create-body-entry(title: "Brainstorm: Autonomous",
-  type: "brainstorm",
+#create-body-entry(title: "Autonomous", type: "brainstorm",
   date: datetime(year: 2024, month: 6, day: 8),
   author: "Isaiah Blanc",
   [
@@ -507,8 +487,7 @@
   ]
 )
 
-#create-body-entry(title: "Identify: Game Manual Update",
-  type: "identify",
+#create-body-entry(title: "Game Manual Update", type: "identify",
   date: datetime(year: 2024, month: 6, day: 27),
   author: "Isaiah Blanc",
   witness: "Evan McClelland",
