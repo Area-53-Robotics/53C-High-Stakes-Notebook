@@ -12,10 +12,10 @@
       gutter: 10pt,
       align(horizon, line(length: 100%)),
       box(width: auto, inset: 10pt, radius: 20pt, fill: color, align(center, it.body)),
-      align(horizon, line(length: 100%))
+      align(horizon, line(length: 100%)),
     )
     v(10pt)
-  } 
+  }
   if it.level == 2 {
     set text(14pt)
     it.body
@@ -23,9 +23,8 @@
   if it.level == 3 {
     set text(13pt)
     it.body
-  } 
-  else {
+  } else {
     set text(12pt)
-  } 
+  }
   v(5pt)
 }
