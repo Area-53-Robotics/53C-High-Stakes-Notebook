@@ -1,4 +1,4 @@
-#import "@local/notebookinator:1.0.0": *
+#import "@local/notebookinator:1.0.1": *
 
 #import "format.typ": *
 #import "colors.typ": *

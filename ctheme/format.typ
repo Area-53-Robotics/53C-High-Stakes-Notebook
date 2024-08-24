@@ -1,4 +1,4 @@
-#import "@local/notebookinator:1.0.0": *
+#import "@local/notebookinator:1.0.1": *
 
 #import "entry-types.typ": entry-type-metadata
 
