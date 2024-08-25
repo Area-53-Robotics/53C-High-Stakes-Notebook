@@ -1,4 +1,4 @@
-#import "@local/notebookinator:1.0.1": *
+#import "@local/notebookinator:1.0.1": utils
 
 #import "../entry-types.typ": *
 

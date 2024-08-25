@@ -1,13 +1,10 @@
 #import "@local/notebookinator:1.0.1": *
 
-// make these included in ctheme
-#import "components/components.typ"
-#import "entry-types.typ": *
-
-#import "ctheme.typ": ctheme
+#import "ctheme/entry-types.typ": *
+#import "ctheme/ctheme.typ": ctheme, components
 
 #show: notebook.with(theme: ctheme)
- 
+
 #create-frontmatter-entry(title: "About the Notebook")[
   = Typst
 
@@ -672,7 +669,7 @@
 
     The Autonomous Win Point provides a crucial advantage above other teams during the qualification matches of a competition and we want to ensure that our robot can perform the following tasks as early as possible.
 
-    #citation(
+    #components.citation(
       id: "SC8",
       rule: "Autonomous Win Point",
       [
